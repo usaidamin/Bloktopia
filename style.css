@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+body{
+    background-color: black;
+}
+.hemlo{
+    width: 50px;
+    height: 25px;
+    color: white;
+}
+.writtenColor{
+    cursor: pointer;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.writtenColor:hover{
+    color: #ff47ff;
+
+}
+.Careers{
+    color: #ff47ff;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Careers:hover{
+    color: #ff47ff;
+
+}
+ /*.Landing-Body {
+    background-image: url(./images/Landsale-poster.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    overflow-x: hidden;
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    height: 1000px;
+    z-index: 999;
+    
+}*/
+.Landing-Body .img{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    z-index: -1;
+    position: relative;
+}
+.fbtn {
+    position: relative;
+}
+.button {
+    position: absolute;
+    top: 380px;
+    z-index: -1;
+    background-color: black; /* Green */
+    border: 10px solid cyan;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+    /* transition-duration: 0.4s; */
+    color: #eb57f7;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+.button:hover{
+    border: #eb57f7;
+    cursor: pointer;
+  }
+.logo{
+    margin-left: -2%;
+}
+.diverNav {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: black; 
+    color: #fff;
+    padding: 10px;
+}
+.navbar{
+    background-color: black;
+}
+.wholeVideo{
+    z-index: 999;
+}
+.video{
+    /* background-color: white; 
+     border: 5px solid red; */
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.video::-webkit-media-controls-panel {
+     display: none ! important; opacity: 1 ! important;
+}
+
+.man{
+    height: 100%;
+    margin-bottom: 50px;
+}
+.manWritten{
+    padding-left: 100px;
+}
+
+.manWritten .manPolygon{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+
+}.built{
+    color: #ff47ff;
+    font-size: 40px;
+}
+.imgPolygon{
+    width: 200px;
+    height: 200px;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+.bloktopiaPara{
+    color: white;
+    margin-left: -10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.laptopWritten{
+    height: 100%;
+    overflow: hidden;
+}
+.laptopWritten .intro{
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro .h1into{
+    color: white;
+    overflow: hidden;
+    margin-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.italic{
+    color: #ff47ff;
+    font-size: 50px;
+    padding-left: 20px;
+
+}
+.intro .box1{
+    margin-left: 5%;
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.laptopPic .laptopImg{
+    height: 60%;
+}
+.blacktopio15{
+    background-image: url(./BLOKTOPIA-15-copy.png);
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.blacktopio15 .upperWritten{
+    overflow: hidden;
+    background-color: black;
+    width: 60%;
+    padding: 50px 0px;
+    opacity: 0.6;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.upperWritten .upperh1{
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    font-size: 50px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    opacity: 1;
+    
+}
+.upperWritten .upperI{
+    text-align: center;
+    font-size: 40px;
+    color: #ff47ff;
+   font-style: italic;
+}
+.upperWritten .upperP{
+    width: 60%;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 20%;
+
+}
+.MobileSection{
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.MobileSection .mobilePic{
+    margin-top: 10%;
+}
+.MobileSection .mobileDescrip{
+    margin-top: 10%;
+}
+.mobilePic .mobileImg{
+    height: 100%;
+}
+.h1Mobile{
+    color: white;
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: bold;
+}
+.bringing{
+    color: #ff47ff;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+}
+.bridge{
+    color: white;
+}
+.session
+{
+    width: 100%;
+    height: 100%;
+}
+.work1Session{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.work1Session .learnImg{
+    width: 40%;
+}
+.work1Session .learnImg1{
+    width: 40%;
+    margin-top: 5%;
+}
+.work1Session p {
+    font-size: 18px;
+}
+.pic1Session {
+    width: 50%;
+}
+.pic1Session .ladyImg{
+    width: 100%;
+    height: 100%;
+}
+.earn{
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.oppor{
+    width: 100%;
+    height: 100%;
+}
+
+.threechilds{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.blok .blokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.reblok .reblokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.adblok .adblokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.blok .blokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.reblok .reblokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.adblok .adblokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.blok .blokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.reblok .reblokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.adblok .adblokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.blok .blokdetail{
+    color: white;
+    text-align: center;
+    text-justify: inter-word;
+}
+.reblok .reblokdetail{
+    color: white;
+    text-align: center;
+    text-justify: inter-word;
+}
+.adblok .adblokdetail{
+    color: white;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.container1 .token{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+.container1 .tokenp{
+    color: white;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.container2{
+    height: 100%;
+    background-color: #ff47ff;
+    margin-bottom: 10%;
+}
+.container2 .tokenutility{
+    width: 40%;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.container2 .Box2{
+    height: 100%;
+    display: flex;
+    margin-bottom: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+.Box2 .artboard{
+    width: 8%;
+    height: 10%;
+    margin-left: 10%;
+}
+.Box2 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 50%;
+}
+.container2 .Box3{
+    height: 100%;
+    display: flex;
+    margin-bottom: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+.Box3 .artboard{
+    width: 8%;
+    height: 10%;
+    margin-left: 10%;
+}
+.Box3 .BLOKG{
+    margin-top: 1.5%;
+    margin-left: 3%;
+    width: 50%;
+}
+.container2 .Box4{
+    height: 100%;
+    display: flex;
+    margin-bottom: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+.Box4 .artboard{
+    width: 8%;
+    height: 10%;
+    margin-left: 10%;
+}
+.Box4 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 50%;
+}
+.container2 .Box5{
+    height: 100%;
+    display: flex;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+.Box5 .artboard{
+    width: 8%;
+    height: 10%;
+    margin-left: 10%;
+}
+.Box5 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 50%;
+}
+.partners{
+    margin-top: -5%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+.partnersImg{
+    position: relative;
+}
+.partnersImg img{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+}
+.partners .threeImg{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.threeImg .anzu{
+    width: 20%;
+    height: 100px;
+}
+.threeImg .polygon2{
+    width: 20%;
+    height: 200px;
+    margin-top: -4%;
+}
+.threeImg .zokyo{
+    width: 20%;
+    height: 80px;
+}
+
+.ivestorLead{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -2%;
+    font-size: 20px;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+.investors .animaca{
+    width: 35%;
+    height: 200px;
+    overflow: hidden;
+}
+.cont{
+    width: 100%;
+    border: 2px solid #ff47ff;
+    margin-bottom: 5%;
+}
+.cont1 {
+    height: 100%;
+    margin-bottom: 4%;
+    margin: auto;   
+}
+.cont1 .x21{
+    width: 130px;
+    height: 100px;
+    margin-left: 5%;
+
+}
+.cont2 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;    
+}
+.cont2 .x21{
+    width: 130px;
+    height: 100px;
+    margin-left: 5%;
+
+}
+
+.teamSection{
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.teamImg{
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+.hotpink{
+    color: #ff47ff;
+    font-weight: bold;
+    text-align: center;
+
+}
+.occupation{
+    color: white;
+    text-align: center;
+    margin-top: -4%;
+}
+.About{
+    color: white;
+    text-align: left;
+}
+.lastStage{
+    height: 100%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.playstation{
+    width: 35%;
+    height: 60px;
+    margin-left: 10%;
+}
+.skyVegas{
+    width: 35%;
+    height: 100px;
+    margin-left: 10%;
+}
+
+.lastSession{
+    width: 100%;
+    height: 100%;
+    border: 2px solid pink;
+    background-color: #ff47ff;
+}
+.linewiselogo{
+    text-align: center;
+    margin-top: 5%;
+}
+.helloG{
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.reserved{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.disclaim{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.lastpara{
+    color: white;
+    text-align: justify;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+@media only screen and (max-width : 992px)
+{
+    .fbtn {
+        position: relative;
+    }
+    .button {
+        position: absolute;
+        top: 290px;
+        /* margin-top: -430px; */
+        z-index: -1;
+        background-color: black; /* Green */
+        border: 10px solid cyan;
+        border-radius: 20px;
+        float: left;
+        margin-left: 20%;
+        text-align: center;
+        /* transition-duration: 0.4s; */
+        color: #eb57f7;
+        cursor: pointer;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .button:hover{
+        border: #eb57f7;
+        cursor: pointer;
+      }
+}

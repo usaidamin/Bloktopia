@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <title>BLOKTOPIA-The Home Of Crypto</title>
+  <link rel="shortcut icon" href="bloktopia.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="diverNav">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="Blocktopia-logo.jpg" class="logo" width="250px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="M.jpg" class="hemlo"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="signaturem-removebg-preview.png"
+                  class="hemlo"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                  <path
+                    d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg class="hemlo"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-meta"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a54.944 54.944 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3c.319 0 .625.039.924.122.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714Zm1.516 2.224c-.252-.41-.494-.787-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87l-.937-1.565ZM4.846 4.756c.725.1 1.385.634 2.34 2.001A212.13 212.13 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264.091 0 .181.006.27.018Z" />
+                </svg></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link writtenColor " aria-current="page">BLOKPAD</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link writtenColor " aria-current="page">JOBE</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link writtenColor " aria-current="page">STAKING</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link writtenColor " aria-current="page">NFT's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Careers " aria-current="page">
+                CAREERS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="fbtn">
+    <div class="Landing-Body row">
+      <img src="Landsale-poster.jpg" class="img col-lg-12 col-md-12 col-sm-12 col-12">
+    </div>
+    <button class="button">NOW LIVE</button>
+  </div>
+  <div class="wholeVideo row">
+    <video class="video col-lg-12 col-md-12 col-sm-12 col-12" autoplay muted>
+      <source src="Bloktopiatrailer_whole-video.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="man row">
+    <div class="manVideo col-lg-6 col-md-6 col-sm-12 col-12">
+      <video class="video" autoplay muted>
+        <source src="3D-Man.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="manWritten col-lg-6 col-md-6 col-sm-12 col-12">
+      <h1 class="manPolygon">A <br>DECENTRALISED <br>METAVERSE</h1>
+      <p class="built"><i>BUILT & BACKED <br>BY</i></p>
+      <img src="polygon-logo.jpg" class="imgPolygon">
+      <p class="bloktopiaPara"><b>Bloktopia will provide an unprecedented VR experience for the
+          crypto community, bringing users together all in one immersive and engaging
+          environment.</b> </p>
+    </div>
+  </div>
+
+  <div class="laptopWritten row">
+    <div class="intro col-lg-6 col-md-6 col-sm-12 col-12">
+      <h1 class="h1into">INTRODUCING <br> BLOKTOPIA</h1>
+      <i class="italic">THE HOME OF&nbsp;CRYPTO</i>
+      <p class="box1">Bloktopia is a Skyscraper made up of 21 levels to pay recognition to 21 million Bitcoin. Token
+        holders will be known as Bloktopians. It will act as a central hub and welcome all levels of crypto experience.
+        For the first time ever, users will have access to crypto information and immersive content all in one place.
+        Bloktopians will be able to earn revenue through real estate ownership, advertising revenue, play games, build
+        networks and much more. By using the world’s most advanced real time 3D Creation Engine, Bloktopia will leverage
+        this technology to create stunning visualisations and user experience.</p>
+    </div>
+    <div class="laptopPic col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="laptop.jpg" class="laptopImg">
+    </div>
+  </div>
+
+  <div class="sliderVideo row">
+    <video class="video col-lg-12 col-md-12 col-sm-12 col-12" autoplay muted loop>
+      <source src="slider.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="blacktopio15">
+    <div class="upperWritten">
+      <h1 class="upperh1">AN EVER CHANGING REALITY</h1>
+      <p class="upperI">ON THE BLOK</p>
+      <p class="upperP">According to Zion Market Research, the global augmented and virtual reality market was valued at
+        around USD $26.7 billion in 2018, and is expected to reach approximately $814.7 billion by 2025, at a CAGR of
+        63% between 2019 and 2025. Bloktopia’s vast user base will allow monetisation through advertising and
+        sponsorship providing an opportunity
+        to share in revenue generation via an NFT mechanism.</p>
+    </div>
+  </div>
+
+  <div class="MobileSection row">
+    <div class="mobilePic col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="mobile.jpg" class="mobileImg">
+    </div>
+    <div class="mobileDescrip col-lg-6 col-md-6 col-sm-12 col-12">
+      <h1 class="h1Mobile">WHAT IS THE<br>METAVERSE?</h1>
+      <p class="bringing">BRINGING NFT'S<br>TO LIFE</p>
+      <p class="bridge">The Metaverse is the bridge between physical and virtual worlds within the decentralised and
+        open source virtual world. Cryptographic protocols will emerge for managing digital value, for example, digital
+        art, real estate & advertising space. The facilitators that make this happen will be NFT’s on the Polygon
+        Network allowing for affordable and rapid transactions.</p>
+    </div>
+  </div>
+
+  <div class="session row">
+    <div class="pic1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="lady-call.jpg" class="ladyImg">
+    </div>
+    <div class="work1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="learn.jpg" class="learnImg">
+      <h1 class="h1session">What is the <br> Metaverse?</h1>
+      <p class="pSession">he world of crypto can be an <br> extremely difficult place to <br> navigate your way around.
+        <br> With Youtube, Telegram and <br> Crypto Twitter information is <br> very disjointed.
+      </p>
+      <p class="p2Session">Bloktopia will overcome this <br> issue by positioning itself as a <br> central hub, where
+        users can <br> come and learn in an open <br> and friendly environment.</p>
+    </div>
+  </div>
+  <div class="session row">
+    <div class="work1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="earn.jpg" class="learnImg1">
+      <h1 class="h1Session">Generate<br>revenue<br>through<br>multiple<br>income<br>streams</h1><br>
+      <p class="pSession">Bloktopia will be a land of <br> earning opportunities for<br>Bloktopians. Following the
+        IDO,<br>Bloktopia real estate will be<br>made available for<br>Bloktopians to purchase.<br>Other
+        opportunities will<br> consist of passive earning,<br> staking and advertising.</p>
+    </div>
+    <div class="pic1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="kucion.jpg" class="ladyImg">
+    </div>
+  </div>
+  <div class="session row">
+    <div class="pic1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="spin.jpg" class="ladyImg">
+    </div>
+    <div class="work1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="play.jpg" class="learnImg">
+      <h1 class="h1session">Relax,<br> socialise, <br>have fun and <br>compete</h1><br>
+      <p class="pSession">Users can come and play <br> games, entertain friends and <br> network through a truly <br>
+        immersive, first-person <br> perspective of a virtual reality
+        <br> world.
+      </p>
+    </div>
+  </div>
+
+  <div class="session row">
+    <div class="work1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="create.jpg" class="learnImg1">
+      <h1 class="h1Session">Push the <br> boundaries of <br> your <br> creativity</h1><br>
+      <p class="pSession">Create scenes, artworks, <br> challenges and more, using <br> the simple builder tool, then
+        <br> ake part in events to win <br> prizes. For more experienced <br> creators, the SDK provides the <br> tools
+        to fill the world with <br>social games and <br>applications
+      </p>
+    </div>
+    <div class="pic1Session col-lg-6 col-md-6 col-sm-12 col-12">
+      <img src="body.jpg" class="ladyImg">
+    </div>
+  </div>
+
+  <div class="earn">
+    <img src="earn-opportunities.jpg" class="oppor">
+  </div>
+
+  <div class="threechilds row">
+    <div class="blok col-lg-4 col-md-4 col-sm-6 col-12">
+      <h1 class="blokh1">BLOK</h1>
+      <p class="blokp">THE NATIVE TOKEN OF BLOKTOPIA</p>
+      <p class="blokhb">EARNING WITH BLOK</p>
+      <p class="blokdetail">Bloktopians will be able to buy and sell BLOK via both Decentalized and Centralised
+        exchanges. All BLOK from initial real estate purchases will be publicity burnt decreasing the overall supply of
+        the token. BLOK will also be required to purchase items from within Bloktopia for example; upgrading real estate
+        space or purchasing items from within the marketplace. This is what makes BLOK valuable and necessary for the
+        ecosystem to operate.</p>
+
+    </div>
+    <div class="reblok col-lg-4 col-md-4 col-sm-6 col-12">
+      <h1 class="reblokh1">REBLOK</h1>
+      <p class="reblokp">BUY, SELL & LEASE VIRTUAL REAL <br> ESTATE</p>
+      <p class="reblokhb">EARNING WITH REBLOK</p>
+      <p class="reblokdetail">Within Bloktopia the purchase of real estate is known as Reblok. Bloktopians will be able
+        to purchase real estate following the BLOK token distribution event (TGE). The real estate will be a valuable
+        commodity within Bloktopia allowing Bloktopians to speculate on the property and either resell for profit or
+        lease for passive income opportunities.</p>
+    </div>
+    <div class="adblok col-lg-4 col-md-4 col-sm-6 col-12">
+      <h1 class="adblokh1">ADBLOK</h1>
+      <p class="adblokp">RECEIVE INCOME <br> VIA ADVERTISING</p>
+      <p class="adblokhb">EARNING WITH ADBLOK</p>
+      <p class="adblokdetail">Within Bloktopia one of the key earning opportunities to investors is via advertising.
+        Bloktopia will work with key brand partners and give them a unique opportunity to advertise within Bloktopia. A
+        proportion of these advertising fees generated will be returned to Bloktopia token holders.</p>
+    </div>
+  </div>
+  <div class="container1">
+    <p class="token">TOKEN LOCK</p>
+    <p class="tokenp">Bloktopia real estate will be sold in a eight phase sale. All BLOK tokens used for the purchase of
+      the BLOK real estate will be publicly locked reducing the supply of BLOK tokens.</p>
+  </div>
+  <div class="row">
+    <div class="container2 col-lg-12 col-md-12 col-sm-12 col-12">
+      <img src="token.jpg" class="tokenutility">
+      <div class="Box2">
+        <img src="Artboard-12-copy.jpg" class="artboard">
+        <p class="BLOKG">BLOK is the native token of Bloktopia. BLOK will be required to purchase or lease all real estate within Bloktopia.</p>
+      </div>
+      <div class="Box3">
+        <img src="shop.jpg" class="artboard">
+        <p class="BLOKG">Bloktopians will be able to purchase items from the Bloktopia marketplace, via a NFT
+          mechansim. The marketplace will showcase items to personalise both real estate and customise avatars.</p>
+      </div>
+      <div class="Box4">
+        <img src="$.jpg" class="artboard">
+        <p class="BLOKG">BLOK is a utility token and offers holders a wide range of features within Bloktopia. Examples include, accessing exclusive events, joining pre sales and staking.
+        </p>
+      </div>
+      <div class="Box5">
+        <img src="law.jpg" class="artboard">
+        <p class="BLOKG">Bloktopia will work on a Governance model. Reblok NFT holders will form part of that Governance council. Each NFT will vote via a DAO. Proposals will be made to the DAO where NFT holders
+          will vote with the majority vote winning.</p>
+      </div>
+    </div>
+  </div>
+  <div class="partners">
+    <div class="partnersImg">
+    <img src="partners.jpg">
+  </div>
+    <div class="threeImg row">
+      <img src="Anzu-logo_new.jpg" class="anzu col-lg-4 col-md-4 col-sm-4 col-4">
+      <img src="polygon-logo.jpg" class="polygon2 col-lg-4 col-md-4 col-sm-4 col-4">
+      <img src="5fc4b5bde4b22250ea7efaec_logo-zok.svg" class="zokyo col-lg-4 col-md-4 col-sm-4 col-4">
+    </div>
+  </div>
+  <div class="investors">
+    <div class="investorsSession partnersImg">
+      <img src="investors.jpg">
+      <p class="ivestorLead">LEAD INVESTOR</p>
+      <img src="animaca.jpg" class="animaca">
+    </div>
+  </div>
+  <div class="cont"></div>
+  <div class="cont1 row">
+    <img src="x21.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="bitboy.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="genblock.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="polygon-logo.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="AU21.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="MAGNUS.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+  </div>
+  <div class="cont2 row">
+    <img src="anti-fund.png" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="ZBS.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="crypto.png" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="avalarus.jpg" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="TK-Capital.png" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+    <img src="shima-capital.png" class="x21 col-lg-2 col-md-2 col-sm-4 col-4">
+  </div>
+  <div class="partnersImg">
+    <img src="team.jpg">
+  </div>
+
+  <div class="teamSection row">
+    <div class="team1 col-lg-4 col-md-4 col-sm-6 col-12">
+      <img src="BLOKTOPIA-10-copy.png" width="200px" height="200px" class="teamImg">
+      <p class="hotpink">ROSS TAVAKOLI</p>
+      <p class="occupation">CEO & COFOUNDER</p>
+      <p class="About">Ross is an ‘OG’ in terms of Crypto having been involved in the space since 2015. Ross’s
+        experience is from the retail investment side. Bloktopia is his vision and he is responsible 
+        for developing and building a specialist team to make Bloktopia the home of crypto.
+      </p>
+    </div>
+    <div class="team1 col-lg-4 col-md-4 col-sm-6 col-12">
+      <img src="BLOKTOPIA-9.png" width="200px" height="200px" class="teamImg">
+      <p class="hotpink">PADDY CARROLL</p>
+      <p class="occupation">CMO & COFOUNDER</p>
+      <p class="About">Paddy is an experienced marketer, working for some ofthe largest brands in the UK
+        such as BT Group and Sky.Paddy will lead the marketingstrategy for Bloktopia , alongside driving
+        forward the vast ad revenue opportunities,onboarding market leading platforms to offer reach and
+        frequency with a whole new captive audience.
+      </p>
+    </div>
+    <div class="team1 col-lg-4 col-md-4 col-sm-6 col-12 ">
+      <img src="BLOKTOPIA-8.png" width="200px" height="200px" class="teamImg">
+      <p class="hotpink">LIBBY ROTHWELL</p>
+      <p class="occupation">COMMERCIAL DIRECTOR</p>
+      <p class="About">Libby has over 15 year’sexperience in the film industryand creating commercial
+        partnerships. She understandsthe importance of networkingand both physical and virtualevents
+        having attended someof the largest film markets in the world; The American Film Market (AFM) &
+        Cannes.
+      </p>
+    </div>
+    <div class="team1 col-lg-4 col-md-4 col-sm-6 col-12">
+      <img src="BLOKTOPIA-10.png" width="200px" height="200px" class="teamImg">
+      <p class="hotpink">SIMON BENSON</p>
+      <p class="occupation">CTO</p>
+      <p class="About">Simon is the Tech lead, with over 25 years of commercial immersive development
+        experience. Previously, Simonhad the role of Director ofImmersive Technology at Sony.Simons
+        highlights includeleading multi-million-dollarAAA game projects, pioneeringstereoscopic 3D
+        consolegaming and founding
+      </p>
+    </div>
+  </div>
+
+  <div class="lastStage">
+    <img src="playstation.png" class="playstation">
+    <img src="sky.png" class="skyVegas">
+  </div>
+
+  <div class="lastSession">
+    <div class="linewiselogo">
+      <svg class="helloG" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-telegram" viewBox="0 0 16 16">
+        <path
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+      </svg>
+      <svg class="helloG" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-twitter" viewBox="0 0 16 16">
+        <path
+          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+      </svg>
+      <svg class="helloG" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-instagram" viewBox="0 0 16 16">
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+      </svg>
+      <svg class="helloG" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-discord" viewBox="0 0 16 16">
+        <path
+          d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+      </svg>
+      <p class="reserved">©Bloktopia all Rights Reserved 2022</p>
+      <p class="disclaim">Disclaimer</p>
+      <p class="lastpara">No Investment Advice <br>
+        The information provided on this website does not constitute investment advice, financial advice, trading
+        advice, or any other sort of advice and you should not treat any of the website's content as such. Blokotpia
+        does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due
+        diligence and consult your financial advisor before making any investment decisions. You can view any revisions
+        or modifications to the saft agreement on this website, <br> if you are an early investor please request a
+        password for access.</p>
+    </div>
+  </div>
+
+  <!-- DONE -->
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+  integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+  integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+</html>
